@@ -1,7 +1,8 @@
 const { ADD_TO_CART, REMOVE_FROM_CART } = require("../actions/cartActions");
 
 const initialState = {
-    cart: []
+    cart: [],
+    products:[]
 }
 
 const cartReducers = (state = initialState, action) => {
