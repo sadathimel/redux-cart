@@ -6,9 +6,9 @@ import Cart from './components/Cart/Cart';
 
 function App() {
   return (
-    <div className="App">
-      <Shop></Shop>
+    <div >
       <Cart></Cart>
+      <Shop></Shop>
     </div>
   );
 }
